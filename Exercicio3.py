@@ -11,7 +11,7 @@ numero=[]
 while condicao:
     num=int(input('Informe o valor para soma: '))
 
-    if (num != 0) and (num >=1) and (num <= 100):
+    if (num != 0) and (num >=1) and (num <= 1000):
         soma += num
         numero.append(num)
     else:
